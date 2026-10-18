@@ -1,0 +1,24 @@
+{
+  "name": "dsh-skill-operate-phone",
+  "version": "0.1.0",
+  "description": "DSH 技能插件：操作 Android 手机屏幕 —— 先问用户「前台还是后台」，再走无障碍或虚拟屏通道",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "SKILL.md"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/cordis": {
+      "optional": true
+    }
+  }
+}
